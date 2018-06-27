@@ -144,7 +144,7 @@
     <string name="camera_change_message">CameraChangeListener: %1$s</string>
     <string name="about_demo_label">About</string>
     <string name="about_demo_details">Some words about application</string>
-    <string name="about_demo_content">Application is using Maps SDK for Android and is very simple. Let\'s call it “Locate FOB Solutions”.\n\nAs the task was to test UI elements on the mobile application using real device (and/or) emulator, it was expected that source code is accessible. So, as I did not found source code of any nice application, I created my own using Android Studio / Kotlin.\n\nPlease, do not estimate the application code. It is quickly build using Google Maps SDK sample, just I needed some application that could start on emulator / real mobile device.</string>
+    <string name="about_demo_content">\n\nFob Solution Locator is a simple application developed based on Google Maps SDK in order to demonstrate how to catch UI elements.\n\nApplication was developed using Android 7.0\n\nSupport: Maksim Kolodijev (55581521)</string>
     <string name="vr_normal_button">Normal</string>
     <string name="vr_more_padded_button">More</string>
     <string name="vr_opera_house_button">SOH</string>

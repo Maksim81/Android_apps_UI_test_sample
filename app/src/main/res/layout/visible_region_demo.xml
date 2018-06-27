@@ -21,7 +21,7 @@
     <TextView
         android:id="@+id/message_text"
         android:layout_width="match_parent"
-        android:layout_height="269dp" />
+        android:layout_height="169dp" />
 
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
@@ -43,11 +43,12 @@
 
             <Button
                 android:id="@+id/vr_normal_button"
-                android:padding="8dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="setNoPadding"
-                android:text="@string/vr_normal_button" />
+                android:padding="8dp"
+                android:text="@string/vr_normal_button"
+                android:visibility="invisible" />
 
             <Button
                 android:id="@+id/vr_more_padded_button"
@@ -55,7 +56,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="setMorePadding"
-                android:text="@string/vr_more_padded_button" />
+                android:text="@string/vr_more_padded_button"
+                android:visibility="invisible"/>
 
             <Button
                 android:id="@+id/vr_soh_button"
@@ -63,7 +65,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="moveToOperaHouse"
-                android:text="@string/vr_opera_house_button" />
+                android:text="@string/vr_opera_house_button"
+                android:visibility="invisible"/>
 
             <Button
                 android:id="@+id/vr_sfo_button"
@@ -71,7 +74,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="moveToSFO"
-                android:text="@string/vr_sfo_button" />
+                android:text="@string/vr_sfo_button"
+                android:visibility="invisible"/>
 
             <Button
                 android:id="@+id/vr_aus_button"
@@ -79,7 +83,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="moveToAUS"
-                android:text="@string/vr_australia_button" />
+                android:text="@string/vr_australia_button"
+                android:visibility="invisible"/>
         </LinearLayout>
     </RelativeLayout>
 </LinearLayout>

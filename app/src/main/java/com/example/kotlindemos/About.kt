@@ -40,8 +40,8 @@ class VisibleRegionDemoActivity :
         AppCompatActivity(),
         OnMapAndViewReadyListener.OnGlobalLayoutAndMapReadyListener {
 
-    private val FobHouseLatLng = LatLng(-33.85704, 151.21522)
-    private val sfoLatLng = LatLng(37.614631, -122.385153)
+    private val FobHouseLatLng = LatLng(59.4334, 24.721226)
+    private val sfoLatLng = LatLng(59.4334, 24.721226)
     private val australiaBounds = LatLngBounds(LatLng(-44.0, 113.0),
             LatLng(-10.0, 154.0))
 
