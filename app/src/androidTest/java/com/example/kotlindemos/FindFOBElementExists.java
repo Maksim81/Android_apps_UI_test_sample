@@ -34,10 +34,10 @@ public class FindFOBElementExists {
     @Test
     public void mainActivityTest() {
         ViewInteraction textView = onView(
-                allOf(withId(R.id.title), withText("Find FOB on map"),
+                allOf(withId(R.id.title), withText("Locate FOB Solutions"),
                         childAtPosition(
                                 childAtPosition(
-                                        withContentDescription("Find FOB on map"),
+                                        withContentDescription("Locate FOB Solutions"),
                                         0),
                                 0),
                         isDisplayed()));
